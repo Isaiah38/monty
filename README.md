@@ -107,3 +107,7 @@ where file is the path to the file containing Monty byte code
 6. If the program can't malloc anymore, the error message Error: malloc failed is printed, followed by a new line, and exit with status EXIT_FAILURE.
 
 7. Only malloc and free are used to manage heap memory.
+
+Author
+Isaiah Ogwuche
+Nike Oni
