@@ -16,52 +16,52 @@ Monty is a language that aims to close the gap between scripting and programmin
 
 monty executes the following opcodes:
 
-push
+1. push
 Pushes an element to the stack
 
-pall
+2. pall
 Prints all the values on the stack
 
-pint
+3. pint
 Prints the value at the top of the stack
 
-pop
+4. pop
 Removes the top element of the stack
 
-swap
+5. swap
 Swaps the top two elements of the stack
 
-queue
+6. queue
 Sets the format of the data to a queue (FIFO)
 
-stack
+7. stack
 Sets the format of the data to a stack (LIFO)
 
-nop
+8. nop
 Doesn't do anything
 
-add
+9. add
 Adds the top two elements of the stack
 
-sub
+10. sub
 Subtracts the top element of the stack from the second top element of the stack
 
-mul
+11. mul
 Multiplies the second top element of the stack with the top element of the stack
 
-div
+12. div
 Divides the second top element of the stack by the top element of the stack
 
-mod
+13. mod
 Computes the rest of the division of the second top element of the stack by the top element of the stack
 
-pchar
+14. pchar
 Prints the char at the top of the stack
 
-pstr
+15. pstr
 Prints the string starting at the top of the stack
 
-rotl
+16. rotl
 Rotates the stack to the toprotrRotates the stack to the bottom
 
  
